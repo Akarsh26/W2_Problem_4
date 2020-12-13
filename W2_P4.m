@@ -20,4 +20,4 @@ t = 0:0.001:0.1;
 step(sys_cl(:,:,1), sys_cl(:,:,2), sys_cl(:,:,3), t)
 ylabel('Position, \theta (radians)')
 title('Step Response with K_p = 21, K_i = 100 and Different Values of K_d')
-legend('Kd = 0.05', 'Kd = 0.15', 'Kd = 0.25')
+legend('Kd = 0.15', 'Kd = 0.25', 'Kd = 0.35')
